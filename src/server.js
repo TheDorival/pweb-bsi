@@ -1,7 +1,7 @@
 // server.js — API da Escola de Cursos (Encontro 1: tudo em um arquivo, dados em memória).
 
 import express from "express";
-import { cursos } from "./src/dados/cursos.js";
+import { cursos } from "./cursos.js";
 
 const app = express();
 app.use(express.json());
